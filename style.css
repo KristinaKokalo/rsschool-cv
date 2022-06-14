@@ -1,4 +1,77 @@
-html {
-    font-size: 24px;
-    font-size: 24px;
+ html, body {
+    width: auto;
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+    font: 18px 'Roboto', sans-serif;
+    color: #7a7178;
+    background-color: #edbbcf;
+}
+    
+a {
+    text-decoration: none;
+    color: #7a7178;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 20px;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    text-align: justify;
+    
+}
+ul {
+    padding: 0;
+}
+.photo-Kristina {
+    width: 80%;
+    border: 10px solid #7a7178;
+    border-radius: 0 20px;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.kristina-part1 {
+    width: 30%;
+    margin-left: 10%;  
+    padding-left: 4%;
+}
+header, .kristina-part1, footer {
+    background-color: #f78db8; 
+
+}
+.kristina-part2 {
+    width: 40%;
+    margin: 0 10%;
+}
+h1 {
+    font-size: 32px;
+    border-bottom: 3px solid #7a7178;
+}
+.about-myself-text {
+    line-height: 40px;
+    text-align: justify;
+}
+.other-marker:before {
+    content: '✓';
+    font-weight: 700;
+    font-size: 20px;
+}
+footer {
+    height: 50px;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo-logo {
+    width: 132px;
 }
