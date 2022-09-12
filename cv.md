@@ -14,11 +14,18 @@ Working currently in international transportations sphere I have decided to chan
 2. Git, GitHub Basics
 
 ## Code example
-This code does not execute properly. Try to figure out why.
+In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 ```
-function multiply(a, b){
-  return a * b
-}
+function highAndLow(numbers){
+   let array = numbers.split(' ')
+   for (let i = 0; i < array.length; i++){
+       array[i] = +array[i]
+   }
+   const max = Math.max(...array)
+   const min = Math.min(...array)
+   const output = `${max} ${min}`
+   return output
+  }
 ```
 
 ## Experiece
